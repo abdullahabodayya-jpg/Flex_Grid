@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Practice | 7. YouTube layout mockup</title>
     <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
   </head>
   <body>
     <header class="site-header">
@@ -35,15 +37,58 @@
         <h3>7. YouTube layout mockup</h3>
         <div class="yt">
           <header>
-            <div class="hamb">☰</div>
-            <div class="ytlogo">YouTube</div>
-            <input placeholder="Search" /><button>🔍</button>
-            <div>◉　♙　●</div>
+            <div class="hamb">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="ytlogo">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <input placeholder="Search" /><button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <div class="yt-icons">
+              <i class="fa-solid fa-video"></i>
+              <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-user"></i>
+            </div>
           </header>
           <nav>
-            <b>Home</b><b>Shorts</b><b>Subscriptions</b>
-            <hr />
-            <b>You</b><b>History</b><b>Playlists</b><b>Watch later</b>
+            <div class="nav-item">
+          <i class="fa-solid fa-house"></i>
+          <b>Home</b>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-bolt"></i>
+          <b>Shorts</b>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-tv"></i>
+          <b>Subscriptions</b>
+        </div>
+
+        <hr />
+
+        <div class="nav-item">
+          <i class="fa-solid fa-user"></i>
+          <b>You</b>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <b>History</b>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-list"></i>
+          <b>Playlists</b>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-clock"></i>
+          <b>Watch later</b>
+        </div>
           </nav>
           <section>
             <div class="chips">
@@ -82,8 +127,12 @@
         <h3>CSS Practice</h3>
         <p>Flexbox & Grid Lab</p>
         <div class="footer-links">
-          <a href="https://www.linkedin.com/in/abdullah-abudayyeh-10257b397/" target="_blank">LinkedIn</a
-          ><a href="https://github.com/abdullahabodayya-jpg" target="_blank">GitHub</a
+          <a
+            href="https://www.linkedin.com/in/abdullah-abudayyeh-10257b397/"
+            target="_blank"
+            >LinkedIn</a
+          ><a href="https://github.com/abdullahabodayya-jpg" target="_blank"
+            >GitHub</a
           ><a href="index.html">Home</a><a href="index.html">Pages</a>
         </div>
         <p class="copyright">© 2026 Abdullah Abu Dayeh | CSS Practice</p>
